@@ -1,0 +1,33 @@
+body {
+  font-family: "Noto Sans TC", sans-serif;
+}
+input[type="radio"] {
+  border: 0px;
+  width: 80%;
+  height: 2em;
+}
+label[for="job"] {
+  font-size: 1.5em;
+}
+button[type="submit"] {
+  font-size: 2em;
+}
+.talkRubbishCreate {
+  font-size: 2.3em;
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  input[type="radio"] {
+    height: 1.2em;
+  }
+  label[for="job"] {
+    font-size: 1em;
+  }
+  button[type="submit"] {
+    font-size: 1.2em;
+  }
+  .talkRubbishCreate {
+    font-size: 1.2em;
+  }
+}

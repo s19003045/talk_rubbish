@@ -1,0 +1,28 @@
+<div class="container">
+  <h2 class="text-center my-3 font-weight-bold">你想對誰說幹話？</h2>
+  <form method="POST" action="/">
+    <div class="form-group form-row mx-auto d-flex justify-content-around">
+      {{#each jobList}}
+      <div class="card col-3 d-flex flex-column justify-content-between" style="width: 18rem;">
+        <img class="card-img-top" src="{{this.image}}" alt="Card image cap">
+        <div class="card-body">
+          <div class="col-md-12 text-center">
+            <input type="radio" name="job" class="btn btn-default" id="{{this.name}}" value="{{this.name}}">
+            <label for="job" class="col-md-12 col-form-label">
+              {{this.title}}
+            </label>
+          </div>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+    {{!-- include partial template --}}
+    <div class="form-group form-row mb-5">
+      <button class="btn btn-info px-5" type="submit">產生幹話</button>
+      <div class="alert alert-info px-5" role="alert">
+        <span class="talkRubbishCreate mr-2"><code>{{talkRubbishCreate}}</code></span>
+      </div>
+    </div>
+
+  </form>
+</div>
