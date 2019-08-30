@@ -54,7 +54,7 @@ Node.js、Express、Express-handlebars、body-parser
 ## 安裝流程
 
 - 下載專案
-  - 從終端機下載：`git clone https://github.com/s19003045/restaurant_list.git`
+  - 從終端機下載：`https://github.com/s19003045/talk_rubbish.git`
   - 直接點選 download 下載
 - 開啟終端機，進入專案資料夾：
   `cd restaurant_list`
@@ -73,7 +73,7 @@ Node.js、Express、Express-handlebars、body-parser
 
 ## 畫面
 
-![首頁](public\images\talk_rubbish.png)
+![首頁](https://github.com/s19003045/talk_rubbish/blob/master/public/images/talk_rubbish.png)
 
 ## 開發人員
 
