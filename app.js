@@ -27,8 +27,6 @@ app.get('/', (req, res) => {
 app.post('/', (req, res) => {
   const talkRubbishCreate = talkRubbish(req.body)
   const jobSelect = req.body.job
-  // console.log(jobSelect)
-  // console.log(jobSelect === 'engineer')
   console.log(req.body)
 
   res.render('index', { talkRubbishCreate: talkRubbishCreate, jobSelect: jobSelect, jobList: jobList.results })
